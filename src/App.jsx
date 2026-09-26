@@ -140,12 +140,12 @@ function App() {
         <section className="panel story-panel">
           <p className="badge">Mission Briefing</p>
           <h2>Catch {round.villainName}</h2>
-          <p>Mr. Gold is the villain known as <strong>The Slope</strong>. He is making students miserable and keeps slipping away on a hidden line. Tune the dials until your equation matches the trail.</p>
+          <p>Mr. Gold made a student very sad. He is on a hidden line. Tune the dials until your equation matches his trail.</p>
           <div className="mission-box"><span className="label">Current clue</span><p>{round.clue}</p></div>
           <div className="formula-preview"><span>Your line</span><strong>{playerFormula}</strong></div>
           <div className="controls">
-            <label><span>Slope m</span><input type="range" min="-5" max="5" value={playerSlope} onChange={(event) => setPlayerSlope(Number(event.target.value))} /><strong>{playerSlope}</strong></label>
-            <label><span>Intercept b</span><input type="range" min="-8" max="8" value={playerIntercept} onChange={(event) => setPlayerIntercept(Number(event.target.value))} /><strong>{playerIntercept}</strong></label>
+            <label><span>Slope (m)</span><input type="range" min="-5" max="5" value={playerSlope} onChange={(event) => setPlayerSlope(Number(event.target.value))} /><strong>{playerSlope}</strong></label>
+            <label><span>Y-Intercept (y)</span><input type="range" min="-8" max="8" value={playerIntercept} onChange={(event) => setPlayerIntercept(Number(event.target.value))} /><strong>{playerIntercept}</strong></label>
           </div>
           <div className="actions"><button className="primary" onClick={handleAttempt} disabled={isGameOver}>Capture the line</button><button className="secondary" onClick={restartGame}>Restart</button></div>
           <p className={`status ${isGameOver ? 'danger' : ''}`}>{status}</p>
