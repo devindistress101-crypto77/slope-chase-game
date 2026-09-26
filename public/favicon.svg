@@ -1,0 +1,33 @@
+# Slope Chase
+
+A browser game where the player uses slope-intercept formulas to catch the villain known as "The Slope." Built with React + Vite and designed to run on Vercel.
+
+## Features
+
+- Adjustable dials for slope `m` and intercept `b`
+- Live formula text: `y = 2x + 1`
+- Score, timer, streak, and villain chase gameplay
+- Persistent save + high score using browser localStorage
+- Ready for static deployment on Vercel
+
+## Local development
+
+```bash
+npm install
+npm run dev
+```
+
+## Production build
+
+```bash
+npm run build
+```
+
+## Deploy on Vercel
+
+1. Push this project to a GitHub repository.
+2. Import it into Vercel.
+3. Use the default Vite settings.
+4. Deploy.
+
+The app uses browser localStorage for saving high score data, so it will persist automatically in the deployed app.
