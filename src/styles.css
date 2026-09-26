@@ -142,7 +142,7 @@ h1 {
 .mission-box {
   background: rgba(255, 255, 255, 0.04);
   border-radius: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.09);
+  border: 1px solid rgba(255,255,255,0.09);
   padding: 16px;
 }
 
@@ -229,9 +229,9 @@ button.primary {
 }
 
 button.secondary {
-  background: rgba(255, 255, 255, 0.07);
+  background: rgba(255,255,255,0.07);
   color: #edf2ff;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255,255,255,0.08);
 }
 
 .status {
@@ -256,11 +256,11 @@ svg {
   height: 420px;
   background: linear-gradient(180deg, rgba(10, 13, 20, 0.8), rgba(18, 25, 42, 0.9));
   border-radius: 18px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255,255,255,0.08);
 }
 
 svg line {
-  stroke: rgba(255, 255, 255, 0.12);
+  stroke: rgba(255,255,255,0.12);
   stroke-width: 1;
 }
 
